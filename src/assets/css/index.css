@@ -32,7 +32,7 @@ body {
 /* utility */
 
 .container {
-  max-width: 1100px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
@@ -64,9 +64,9 @@ body {
 
 /* fine row-columns */
 
-.header-container .col-100 {
+.header-container {
   margin-top: 2rem;
-  max-width: 1100px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
@@ -76,7 +76,7 @@ body {
   align-items: center;
 }
 
-/* ## header top ## */
+/* ## header top */
 
 .header-navbar ul {
   font-size: 0.8rem;
@@ -97,12 +97,43 @@ body {
   padding-bottom: 1rem;
 }
 
-/* ## header middle ## */
-
-#header-middle {
+/* ## header Low  */
+.header-low {
   background-color: black;
   height: 8rem;
+}
+.header-low-content {
   color: white;
   padding-top: 4rem;
-  padding-left: 8rem;
+  font-weight: 0.8rem;
 }
+
+/* ## main-icons*/
+main {
+  height: 8rem;
+  background-color: #0282f9;
+}
+.icon-allign {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+}
+.icon-allign a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.6rem;
+}
+
+.main-imgs {
+  background-color: #0282f9;
+  width: 2rem;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+/* ## main-links */
