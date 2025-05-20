@@ -6,3 +6,5 @@ Note:
 - Il font utilizzato è Open Sans
   Bonus:
 - Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+
+<!-- guardare video d 41:00 per installazione vit -->
