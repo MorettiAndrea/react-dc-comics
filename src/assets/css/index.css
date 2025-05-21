@@ -39,6 +39,12 @@ body {
   padding-right: 1.5rem;
 }
 
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* row-columns */
 
 .row {
@@ -63,18 +69,6 @@ body {
 }
 
 /* fine row-columns */
-
-.header-container {
-  margin-top: 2rem;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* ## header top */
 
@@ -109,7 +103,7 @@ body {
 }
 
 /* ## main-icons*/
-main {
+.main-icons {
   height: 8rem;
   background-color: #0282f9;
 }
@@ -137,3 +131,37 @@ main {
 }
 
 /* ## main-links */
+.main-links {
+  background-image: url("../img/footer-bg.jpg");
+}
+
+.links-title {
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.main-links .container {
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 90%, 10%;
+}
+.main-links .container a {
+  color: gray;
+  text-decoration: none;
+  padding-top: 0.8rem;
+  padding-bottom: 0.3rem;
+  font-size: 0.8rem;
+}
+.main-links .container li :hover {
+  color: white;
+}
+.main-links .container li {
+  padding-bottom: 0.5rem;
+}
+.main-links .container nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}

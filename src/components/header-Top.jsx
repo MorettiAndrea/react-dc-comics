@@ -1,6 +1,6 @@
 export default function HeaderTop() {
   return (
-    <div className="header-container">
+    <div className="container d-flex">
       <div>
         <img
           src="src/assets/img/favicon.ico"

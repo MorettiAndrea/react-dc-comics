@@ -1,6 +1,6 @@
 export default function MainIcons() {
   return (
-    <main>
+    <main className="main-icons">
       <div className="container">
         <nav>
           <ul className="main-navbar">
