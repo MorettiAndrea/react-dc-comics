@@ -17,16 +17,22 @@ export default function Footer() {
               <img src="../src/assets/img/footer-facebook.png" alt="facebook" />
             </li>
             <li>
-              <img src="./" alt="twitter" />
+              <img src="../src/assets/img/footer-twitter.png" alt="twitter" />
             </li>
             <li>
-              <img src="" alt="youtube" />
+              <img src="../src/assets/img/footer-youtube.png" alt="youtube" />
             </li>
             <li>
-              <img src="" alt="pintrest" />
+              <img
+                src="../src/assets/img/footer-pinterest.png"
+                alt="pintrest"
+              />
             </li>
             <li>
-              <img src="" alt="periscope" />
+              <img
+                src="../src/assets/img/footer-periscope.png"
+                alt="periscope"
+              />
             </li>
           </ul>
         </nav>

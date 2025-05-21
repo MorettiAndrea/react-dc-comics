@@ -8,7 +8,7 @@ export default function MainLinks() {
               <h4 className="links-title">DC COMICS</h4>
             </li>
             <li>
-              <a href="#">Charachters</a>
+              <a href="#">Characters</a>
             </li>
             <li>
               <a href="#">Comics</a>
@@ -78,7 +78,7 @@ export default function MainLinks() {
           </ul>
           <ul>
             <li>
-              <h4 className="links-title"></h4>
+              <h4 className="links-title">SITES</h4>
             </li>
             <li>
               <a href="#">DC</a>

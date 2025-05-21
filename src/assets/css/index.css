@@ -6,9 +6,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.img {
-  max-width: 100%;
-}
 ul {
   list-style-type: none;
 }
@@ -137,7 +134,7 @@ body {
 
 .links-title {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -168,9 +165,11 @@ body {
 
 /* footer */
 footer {
-  background-color: gray;
+  background-color: #303030;
 }
 .footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,9 +179,25 @@ footer {
   text-decoration: none;
 }
 .footer nav ul {
+  gap: 1rem;
   color: gray;
   text-decoration: none;
 }
+
 .footer nav ul li img {
-  background-color: black;
+  color: #777777;
+}
+
+.footer button {
+  gap: 1rem;
+  color: gray;
+  border: 1px solid #0282f9;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #303030;
+}
+.footer button a {
+  gap: 1rem;
+  color: white;
+  text-decoration: none;
 }
