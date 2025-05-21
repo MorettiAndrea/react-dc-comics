@@ -3,6 +3,7 @@ import HeaderLow from "./components/header-Low";
 import MainIcons from "./components/Main-icons";
 import MainLinks from "./components/Main-links";
 import Footer from "./components/footer";
+import AlertMessage from "./components/Alert-message";
 export default function App() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function App() {
       <MainIcons />
       <MainLinks />
       <Footer />
+      <AlertMessage />
     </>
   );
 }

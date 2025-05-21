@@ -201,3 +201,39 @@ footer {
   color: white;
   text-decoration: none;
 }
+
+/* ## alert */
+
+.alert {
+  border: 3px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: black;
+  background-color: white;
+}
+
+.alert.alert-info {
+  border-color: blue;
+  color: #0282f9;
+  background-color: #cbe3f8;
+}
+
+.alert.alert-success {
+  border-color: #00ff88;
+  color: #00311a;
+  background-color: #029e55;
+}
+
+.alert.alert-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #f5d5d8;
+}
+
+.alert.alert-warning {
+  border-color: #ffc008;
+  color: yellow;
+  background-color: #ffe281;
+}
