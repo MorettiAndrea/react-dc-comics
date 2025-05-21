@@ -1,9 +1,9 @@
-import HeaderTop from "./components/header-Top";
-import HeaderLow from "./components/header-Low";
-import MainIcons from "./components/Main-icons";
-import MainLinks from "./components/Main-links";
-import Footer from "./components/footer";
-import AlertMessage from "./components/Alert-message";
+import HeaderTop from "./components/layout/header-Top";
+import HeaderLow from "./components/layout/header-Low";
+import MainIcons from "./components/layout/Main-icons";
+import MainLinks from "./components/layout/Main-links";
+import Footer from "./components/layout/footer";
+import AlertMessage from "./components/layout/Alert-message";
 export default function App() {
   return (
     <>
