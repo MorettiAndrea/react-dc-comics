@@ -165,3 +165,24 @@ body {
   justify-content: flex-start;
   gap: 1rem;
 }
+
+/* footer */
+footer {
+  background-color: gray;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer h4 {
+  color: #0282f9;
+  text-decoration: none;
+}
+.footer nav ul {
+  color: gray;
+  text-decoration: none;
+}
+.footer nav ul li img {
+  background-color: black;
+}
