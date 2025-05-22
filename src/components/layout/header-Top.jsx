@@ -12,6 +12,7 @@ export default function HeaderTop() {
         <ul>
           <li>
             <a href="#">CHARACTERS</a>
+            <div className="selector"></div>
           </li>
           <li>
             <a href="#">COMICS</a>

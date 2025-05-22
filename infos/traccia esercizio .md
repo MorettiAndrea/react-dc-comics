@@ -23,3 +23,9 @@ Creiamo ed inseriamo in pagina un componente Alert che possa diverse props. Ques
   Allo stesso modo, se non viene passato un colore specifico per sfondo o testo, i colori di default saranno sul rosso, ad indicare appunto un errore.
   BONUS:
   fare in modo che si possa passare all’alert non soltanto un semplice messaggio ma una porzione di markup a piacimento, tramite la prop
+
+<!-- giorno 3 -->
+
+Descrizione:
+Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l'array di oggetti in allegato. Fate in modo che il componente .
+Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.

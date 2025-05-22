@@ -215,8 +215,8 @@ footer {
 }
 
 .alert.alert-info {
-  border-color: blue;
-  color: #0282f9;
+  border-color: #0282f9;
+  color: blue;
   background-color: #cbe3f8;
 }
 
