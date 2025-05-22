@@ -64,6 +64,9 @@ body {
 .col-1-3 {
   width: calc(100% / 3);
 }
+.col-20 {
+  width: calc(100% / 5);
+}
 
 /* fine row-columns */
 
@@ -89,11 +92,11 @@ body {
 }
 
 /* ## header Low  */
-.header-low {
+.main-comics {
   background-color: black;
-  height: 8rem;
+  min-height: fit-content;
 }
-.header-low-content {
+.main-comics-content {
   color: white;
   padding-top: 4rem;
   font-weight: 0.8rem;
