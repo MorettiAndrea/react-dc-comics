@@ -24,6 +24,9 @@ ul {
 body {
   font-family: sans-serif;
 }
+img {
+  width: 100%;
+}
 /* /setup generali */
 
 /* utility */
@@ -65,7 +68,7 @@ body {
   width: calc(100% / 3);
 }
 .col-20 {
-  width: calc(100% / 5);
+  width: calc(100% / 6);
 }
 
 /* fine row-columns */
@@ -90,16 +93,55 @@ body {
   width: 180%;
   padding-bottom: 1rem;
 }
+/* ## jumbotron */
+.jumbotron {
+  height: 20rem;
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.jumbotron-button {
+  height: 45px;
+  width: 200px;
+  font-size: 1.1rem;
+  padding-top: 0.7rem;
+  text-align: center;
+  background-color: #0282f9;
+  font-weight: bold;
+  color: white;
+  border: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: -13%;
+  left: 20%;
+}
 
-/* ## header Low  */
+/* ## main comics*/
 .main-comics {
   background-color: black;
-  min-height: fit-content;
 }
-.main-comics-content {
+
+.main-comics-container {
+  max-width: 1000px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+}
+.custom-card {
+  width: 100%;
+}
+.custom-card-img {
+}
+
+.custom-card-content {
   color: white;
-  padding-top: 4rem;
-  font-weight: 0.8rem;
 }
 
 /* ## main-icons*/
